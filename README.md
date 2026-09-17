@@ -1,5 +1,9 @@
 # GeoApp
 
+For the full system description, architecture, data model, API reference,
+forecast logic, deployment instructions, and known limitations, see
+[docs/SYSTEM_DOCUMENTATION.md](docs/SYSTEM_DOCUMENTATION.md).
+
 GeoApp is an offline-first Flutter app for finding nearby establishments,
 viewing crowd forecasts, and submitting anonymous crowd reports.
 
