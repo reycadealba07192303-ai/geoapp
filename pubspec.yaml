@@ -36,6 +36,8 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
+    - assets/geoapp_logo.png
+    - assets/geoapp_splash.png
     - assets/seed/
     - assets/map_styles/
   fonts:

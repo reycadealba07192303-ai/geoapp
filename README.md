@@ -163,7 +163,8 @@ $env:MONGODB_DB="geoapp"
 node backend/server.js
 ```
 
-For a phone connected to the same Wi-Fi, run Flutter with the laptop LAN IP:
+The released app uses the deployed Railway backend by default. For local
+development, a phone connected to the same Wi-Fi can use the laptop LAN IP:
 
 ```powershell
 flutter run --dart-define=BACKEND_BASE_URL=http://192.168.1.10:8000

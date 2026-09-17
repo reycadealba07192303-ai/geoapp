@@ -6,6 +6,7 @@ import 'core/i18n/tr.dart';
 import 'core/settings/app_settings.dart';
 import 'core/ui/clay.dart';
 import 'features/shell/app_shell.dart';
+import 'dart:async';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -51,7 +52,74 @@ class GeoApp extends ConsumerWidget {
       themeMode: settings.themeMode,
       builder: (context, child) =>
           TrScope(tr: Tr(settings.language), child: child!),
-      home: const AppShell(),
+      home: const _SplashScreen(),
+    );
+  }
+}
+
+class _SplashScreen extends StatefulWidget {
+  const _SplashScreen();
+
+  @override
+  State<_SplashScreen> createState() => _SplashScreenState();
+}
+
+class _SplashScreenState extends State<_SplashScreen> {
+  @override
+  void initState() {
+    super.initState();
+    Timer(const Duration(milliseconds: 1400), () {
+      if (mounted) Navigator.of(context).pushReplacement(
+        MaterialPageRoute(builder: (_) => const AppShell()),
+      );
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Stack(
+        fit: StackFit.expand,
+        children: [
+          const ColoredBox(color: Color(0xFF171822)),
+          Center(
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Image.asset('assets/geoapp_logo.png', width: 150, height: 150),
+                const SizedBox(height: 10),
+                const Text(
+                  'geoapp',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 15,
+                    fontWeight: FontWeight.w800,
+                    letterSpacing: 0.4,
+                  ),
+                ),
+                const SizedBox(height: 28),
+                const SizedBox(
+                  width: 34,
+                  height: 34,
+                  child: CircularProgressIndicator(
+                    strokeWidth: 3,
+                    color: Color(0xFFFF796B),
+                  ),
+                ),
+                const SizedBox(height: 12),
+                Text(
+                  'Finding places near you…',
+                  style: TextStyle(
+                    color: Colors.white70,
+                    fontSize: 12,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
