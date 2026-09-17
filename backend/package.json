@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check src/config/index.js && node --check src/db/mongo.js && node --check src/repositories/placeRepository.js && node --check src/repositories/reportRepository.js && node --check src/repositories/forecastRepository.js && node --check src/services/forecastAggregationService.js && node --check src/services/googlePlacesService.js && node --check src/services/overpassService.js && node --check src/services/placeService.js && node --check src/services/reportService.js && node --check src/services/forecastService.js && node --check src/controllers/healthController.js && node --check src/controllers/placesController.js && node --check src/controllers/reportsController.js && node --check src/controllers/forecastsController.js && node --check src/utils/http.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "mongodb": "^7.6.0"
+  }
+}

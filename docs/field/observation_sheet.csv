@@ -1,0 +1,11 @@
+observation_id,date,time_local,day_of_week,branch_id,brand,branch_name,crowd_level_1to5,queue_length,seats_available_est,weather,special_event,observer_name,notes
+,2026-09-16,12:05,Tue,jb-sm-clark,Jollibee,SM Clark,,,,clear,none,Rey,
+,2026-09-16,12:20,Tue,mcd-marquee,McDonald's,Marquee Mall,,,,clear,none,Rey,
+,2026-09-16,18:10,Tue,jb-sm-clark,Jollibee,SM Clark,,,,clear,none,Rey,
+,2026-09-17,12:00,Wed,ck-friendship,Chowking,Friendship,,,,rain,none,Ana,
+,2026-09-17,18:30,Wed,mi-balibago,Mang Inasal,Balibago,,,,clear,none,Ana,
+,2026-09-18,15:00,Thu,kfc-sm-clark,KFC,SM Clark,,,,clear,none,Rey,
+,2026-09-19,12:15,Fri,jb-sm-clark,Jollibee,SM Clark,,,,clear,payday,Rey,
+,2026-09-20,13:00,Sat,mcd-marquee,McDonald's,Marquee Mall,,,,clear,weekend,Ana,
+,2026-09-20,19:00,Sat,jb-sm-clark,Jollibee,SM Clark,,,,clear,weekend,Ana,
+,2026-09-21,12:30,Sun,ck-friendship,Chowking,Friendship,,,,clear,weekend,Rey,

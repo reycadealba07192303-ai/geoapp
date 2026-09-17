@@ -1,0 +1,17 @@
+branch_id,brand,branch_name,address,lat,lng,priority,notes
+jb-sm-clark,Jollibee,SM Clark,"SM City Clark, Angeles",15.1696,120.5800,1,fill exact coords on site
+mcd-marquee,McDonald's,Marquee Mall,"Marquee Mall, Angeles",15.1628,120.5885,1,
+ck-friendship,Chowking,Friendship,"Friendship Hwy, Angeles",15.1450,120.5950,2,
+mi-balibago,Mang Inasal,Balibago,"Balibago, Angeles",15.1620,120.5900,2,
+kfc-sm-clark,KFC,SM Clark,"SM City Clark, Angeles",15.1698,120.5802,2,
+jb-sto-rosario,Jollibee,Sto. Rosario,"Sto. Rosario, Angeles",15.1385,120.5902,2,fill exact coords on site
+mcd-dau,McDonald's,Dau,"MacArthur Hwy, Dau, Mabalacat",15.1812,120.5872,2,fill exact coords on site
+kain-aling-lucing,Aling Lucing Sisig,Crossing,"Crossing, Angeles",15.1365,120.5930,2,kainan; fill exact coords on site
+kain-milas-tokyo,Mila's Tokyo Restaurant,Balibago,"Balibago, Angeles",15.1640,120.5905,3,kainan; fill exact coords on site
+pal-pampang,Public Market,Pampang,"Pampang, Angeles",15.1473,120.5747,1,palengke; fill exact coords on site
+pal-angeles,Public Market,Angeles City,"Sto. Rosario, Angeles",15.1370,120.5895,1,palengke; fill exact coords on site
+pal-dau,Public Market,Dau,"Dau, Mabalacat",15.1850,120.5880,2,palengke; fill exact coords on site
+mall-sm-clark,SM City,Clark,"Malabanias, Angeles",15.1696,120.5800,1,mall
+mall-marquee,Marquee Mall,Marquee Mall,"Pulung Maragul, Angeles",15.1628,120.5885,2,mall
+sup-puregold-angeles,Puregold,Angeles,"Sto. Domingo, Angeles",15.1440,120.5870,2,supermarket; fill exact coords on site
+sup-puregold-dau,Puregold,Dau,"Dau, Mabalacat",15.1830,120.5860,3,supermarket; fill exact coords on site
